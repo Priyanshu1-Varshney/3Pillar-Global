@@ -1,12 +1,23 @@
+body {
+background-color: #fff1cd;
+}
 #div-1{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: xx-large;
     padding-left: 50px;
     margin-left: 90px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#img-1{
+  width: 187px;
+  height: 160px;
+  margin-right: 210px;
 }
 #div-2{
   height: 100px;
-  background-color: rgb(247, 147, 163);
+  background-color:  rgb(247, 147, 163);
   text-align: left;
   font-size: x-large;
   padding-top: 7px;
@@ -14,6 +25,7 @@
   margin-right: 100px;
   padding-left: 50px;
   margin-left: 90px;
+  box-shadow: 5px 10px 4px #888888;
 }
 #div-3{
   padding-left: 50px;
@@ -29,6 +41,7 @@
 }
 container:hover{
   background-color: rgb(247, 147, 163);
+  
 }
 .card{
             display: inline-block;
@@ -51,6 +64,8 @@ container:hover{
 }
 .card:hover{
   background-color: rgb(247, 147, 163);
+  border-radius: 30px;
+  box-shadow: 5px 10px 4px #888888;
 }
 
 .header-con {
@@ -100,7 +115,7 @@ container:hover{
 .container1>div {
   font-size: 25px;
   text-transform: uppercase;
-  color: #ffe221;
+  color: #c83eb8;
   opacity: 0;
   height: 0px;
   }
@@ -120,4 +135,21 @@ container:hover{
     16% {opacity: 1;}
     33% {opacity: 0; height: 0px;}
     100% {opacity: 0; height: 0px;}
+}
+#div-1 > h1{
+  text-shadow: 4px 14px 15px #888888 ;
+}
+.header-1 {
+  display: flex;
+  justify-content:space-between;
+  padding: 15px;
+  margin: 20px;
+  cursor: pointer;
+}
+.header-1 > span> a>i{
+margin-left : 10px;
+font-size: large;
+}
+#Contact{
+text-shadow: 4px 14px 15px #888888;
 }

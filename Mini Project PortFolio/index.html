@@ -6,37 +6,55 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>PortFolio</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
 </head>
+
 <body>
+    <div class="header-1">
+        <span id="Contact">
+            <h2>Contact</h2>
+        </span>
+        <span><a href="https://www.instagram.com/mr.__varshney12/" target="_blank"><i
+                    class="fa-brands fa-instagram"></i></a><a href="https://github.com/Priyanshu1-Varshney"
+                target="_blank"> <i class="fa-brands fa-github"></i></a></span>
+    </div>
     <div id='div-1'>
-        <h1>P i y u s h &nbsp S r i v a s t a v a </h1>
+        <h1>P r i y a n s h u &nbsp V a r s h n e y </h1> <img id= "img-1" src="/image/pp.jpg" alt="Priyanshu Varshney">
     </div>
     <div id="div-2">
         <h2>
             <section class="header-con">
-                <div class="text-1">📘 Coder</div>
-                <div class="text-1">🌲 Engineer</div>
-                <div class="text-1">🔥 Developer</div>
+                <div class="text-1"> <i class="fa-solid fa-circle-info"></i> 📘 Coder</div>
+                <div class="text-1"> <i class="fa-solid fa-circle-info"></i> 🌲 Engineer</div>
+                <div class="text-1"><i class="fa-solid fa-circle-info"></i> 🔥 Developer</div>
             </section>
             <div id="list"></div>
         </h2>
     </div>
     <div id="div-3">
         <p>
-            My name is Piyush Srivastava. I am a BTech 3rd year student and am currently working as an intern in 3Pillar Global. I
-            have an expertise in Android App Development and
+            My name is Priyanshu Varshney. I am a BTech 3rd year student and am currently working as an intern in
+            3Pillar Global. I
+            have an expertise in Web Development and
             am very much interested in Frontend developement. This project focuses on how I work on <b>Frontend
                 Development</b> and showcases my skills in it. <br>
         <ul>
             <li type="circle">
-                I have achived a <b>certificate</b> from NetCamp Pvt. Ltd. for completing my training in Android App Development using JAVA.
+                I have achived a <b>certificate</b> from DCS for completing my training in IOT using python.
             </li>
-            <li type = "circle">
-                I have <b>experience</b> in technologies like Android, Python, HTML, CSS, JavaScript and SQL.
+            <li type="circle">
+                I have <b>experience</b> in technologies like Java, Python, HTML, CSS, JavaScript , Linux ,Git/GitHub
+                and SQL.
             </li>
-            <li type = "circle">
-                I <b>contributed</b> in frontend designing of a webpage for my group mini project(Introvert Enlightener).
+            <li type="circle">
+                I <b>contributed</b> in frontend designing of a webpage for my group mini project(Learning Catalyst and
+                Fabrooms).
+            </li>
+            <li type="circle">
+                I have done several workshops regarding  IOT, Linux , Web Development and JAVA.
             </li>
         </ul>
         </p>
@@ -52,7 +70,7 @@
             </div>
         </div>
         <div class="foot">
-            <div class="one-div"><span>The Technologies I Know</span> </div> 
+            <div class="one-div"><span>The Technologies I Know</span> </div>
             <div class="container1">
                 <div>HTML</div>
                 <div>CSS</div>
@@ -60,5 +78,11 @@
             </div>
 
         </div>
+        <script>
+            var contact= document.getElementById("Contact");
+            const number = "7300526322"
+            contact.onclick =() => { document.getElementById("Contact").innerHTML = number}
+        </script>
 </body>
+
 </html>

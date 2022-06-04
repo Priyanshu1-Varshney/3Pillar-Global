@@ -1,0 +1,48 @@
+
+* {
+    box-sizing: border-box;
+  }
+   input[type=text], input[type=submit],input[type=number]{
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-right: 15px;
+    box-shadow: 5px 10px 4px #4b3c3c;;
+  }
+
+  
+  .header {
+    background-image: linear-gradient(to bottom right, #142500, #ad7e7d);
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+  }
+  
+  .header:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  #myTableData {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  #myTableData button{
+    color:black;
+    border-radius: 45px;
+  }
+  #myTableData td{
+    padding: 8px;
+    width: 25%;
+	  text-align: center;
+	  vertical-align: middle;
+  }
+  
+  #myTableData tr:nth-child(even){background-color: rgb(176, 173, 170);}
+  #myTableData tr:nth-child(odd){background-color: rgb(221, 207, 190);}
+  
+  #myTableData tr:hover {background-color: rgb(214, 237, 247);}
