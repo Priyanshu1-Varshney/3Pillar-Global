@@ -1,23 +1,26 @@
 body {
-background-color: #fff1cd;
+  background-color: #fff1cd;
 }
-#div-1{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: xx-large;
-    padding-left: 50px;
-    margin-left: 90px;
-    display: flex;
-    justify-content: space-between;
-    
+
+#div-1 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: xx-large;
+  padding-left: 50px;
+  margin-left: 90px;
+  display: flex;
+  justify-content: space-between;
+
 }
-#img-1{
+
+#img-1 {
   width: 187px;
   height: 160px;
   margin-right: 210px;
 }
-#div-2{
+
+#div-2 {
   height: 100px;
-  background-color:  rgb(247, 147, 163);
+  background-color: rgb(247, 147, 163);
   text-align: left;
   font-size: x-large;
   padding-top: 7px;
@@ -27,45 +30,52 @@ background-color: #fff1cd;
   margin-left: 90px;
   box-shadow: 5px 10px 4px #888888;
 }
-#div-3{
+
+#div-3 {
   padding-left: 50px;
   padding-right: 50px;
   margin-left: 50px;
   margin-right: 50px;
   font-size: x-large;
 }
-#container{
+
+#container {
   padding: 3px;
   width: 700px;
   overflow: hidden;
 }
-container:hover{
+
+container:hover {
   background-color: rgb(247, 147, 163);
-  
+
 }
-.card{
-            display: inline-block;
-            padding: 20px;
-            height: 250px;
-            width: 400px;
-            margin: 80px;
-            position: relative;
-            font-size: larger;
-            text-align: center;
-            font-family: 'Times New Roman', Times, serif;
-            
+
+.card {
+  display: inline-block;
+  padding: 20px;
+  height: 250px;
+  width: 400px;
+  margin: 80px;
+  position: relative;
+  font-size: larger;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+
 }
-.p1{
+
+.p1 {
   padding: 70px;
 }
-.main{
-            display: inline-flex;
-            min-width: 100%;
+
+.main {
+  display: inline-flex;
+  min-width: 100%;
 }
-.card:hover{
+
+.card:hover {
   background-color: rgb(247, 147, 163);
   border-radius: 30px;
-  box-shadow: 5px 10px 4px #888888;
+  box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
 }
 
 .header-con {
@@ -73,83 +83,122 @@ container:hover{
   height: 220px;
   position: relative;
 }
+
 .header-con>div {
   font-size: 25px;
   text-transform: uppercase;
   color: black;
   opacity: 0;
   height: 0px;
-  }
+}
 
-.header-con>div:nth-child(1){
+.header-con>div:nth-child(1) {
   animation: animation 9s infinite;
 }
-.header-con>div:nth-child(2){
+
+.header-con>div:nth-child(2) {
   animation: animation 9s infinite;
   animation-delay: 3s;
-  }
-.header-con>div:nth-child(3){
-  animation: animation 9s infinite;
-  animation-delay: 6s;
-  
-}
-@keyframes animation {
-    0% {opacity: 0; margin-left: 10px;}
-    16% {opacity: 1; margin-left: 30px;}
-    33% {opacity: 0; height: 0px; margin-left: 50px;}
-    100% {opacity: 0; height: 0px; margin-left: 50px;}
 }
 
-.foot{
+.header-con>div:nth-child(3) {
+  animation: animation 9s infinite;
+  animation-delay: 6s;
+
+}
+
+@keyframes animation {
+  0% {
+    opacity: 0;
+    margin-left: 10px;
+  }
+
+  16% {
+    opacity: 1;
+    margin-left: 30px;
+  }
+
+  33% {
+    opacity: 0;
+    height: 0px;
+    margin-left: 50px;
+  }
+
+  100% {
+    opacity: 0;
+    height: 0px;
+    margin-left: 50px;
+  }
+}
+
+.foot {
   display: flex;
 }
 
-.one-div{
-  width: 360px; 
+.one-div {
+  width: 360px;
 }
 
 .container1 {
   width: 100%;
   height: 220px;
 }
+
 .container1>div {
   font-size: 25px;
   text-transform: uppercase;
   color: #c83eb8;
   opacity: 0;
   height: 0px;
-  }
-.container1>div:nth-child(1){
+}
+
+.container1>div:nth-child(1) {
   animation: animation1 9s infinite;
 }
-.container1>div:nth-child(2){
-  animation: animation1 9s infinite;
-  animation-delay: 3s;
-  }
-.container1>div:nth-child(3){
+
+.container1>div:nth-child(3) {
   animation: animation1 9s infinite;
   animation-delay: 6s;
 }
+
 @keyframes animation1 {
-    0% {opacity: 0; height: 0px}
-    16% {opacity: 1;}
-    33% {opacity: 0; height: 0px;}
-    100% {opacity: 0; height: 0px;}
+  0% {
+    opacity: 0;
+    height: 0px
+  }
+
+  16% {
+    opacity: 1;
+  }
+
+  33% {
+    opacity: 0;
+    height: 0px;
+  }
+
+  100% {
+    opacity: 0;
+    height: 0px;
+  }
 }
-#div-1 > h1{
-  text-shadow: 4px 14px 15px #888888 ;
+
+#div-1>h1 {
+  text-shadow: 4px 14px 15px #888888;
 }
+
 .header-1 {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   padding: 15px;
   margin: 20px;
   cursor: pointer;
 }
-.header-1 > span> a>i{
-margin-left : 10px;
-font-size: large;
+
+.header-1>span>a>i {
+  margin-left: 10px;
+  font-size: large;
 }
-#Contact{
-text-shadow: 4px 14px 15px #888888;
+
+#Contact {
+  text-shadow: 4px 14px 15px #888888;
 }

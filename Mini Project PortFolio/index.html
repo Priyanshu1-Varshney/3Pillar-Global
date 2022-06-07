@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html id="html">
 
 <head>
     <meta charset='utf-8'>
@@ -12,9 +12,9 @@
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
 </head>
 
-<body>
+<body id="body">
     <div class="header-1">
-        <span id="Contact">
+        <span id="Contact" onclick="replace()" ondblclick="againreplace()">
             <h2>Contact</h2>
         </span>
         <span><a href="https://www.instagram.com/mr.__varshney12/" target="_blank"><i
@@ -22,8 +22,10 @@
                 target="_blank"> <i class="fa-brands fa-github"></i></a></span>
     </div>
     <div id='div-1'>
-        <h1>P r i y a n s h u &nbsp V a r s h n e y </h1> <img id= "img-1" src="/image/pp.jpg" alt="Priyanshu Varshney">
+        <h1 id="head">P r i y a n s h u &nbsp V a r s h n e y </h1> <img id="img-1" src="/image/pp.jpg"
+            alt="Priyanshu Varshney">
     </div>
+
     <div id="div-2">
         <h2>
             <section class="header-con">
@@ -36,10 +38,9 @@
     </div>
     <div id="div-3">
         <p>
-            My name is Priyanshu Varshney. I am a BTech 3rd year student and am currently working as an intern in
-            3Pillar Global. I
-            have an expertise in Web Development and
-            am very much interested in Frontend developement. This project focuses on how I work on <b>Frontend
+            I am Priyanshu Varshney , persuing BTech(CSE) student and am currently working as an intern in
+            3Pillar Global. I hail from Aligarh and I have an expertise in Web Development and I have interest in Frontend
+            developement. This project focuses on how I work on <b>Frontend
                 Development</b> and showcases my skills in it. <br>
         <ul>
             <li type="circle">
@@ -54,7 +55,7 @@
                 Fabrooms).
             </li>
             <li type="circle">
-                I have done several workshops regarding  IOT, Linux , Web Development and JAVA.
+                I have done several workshops regarding IOT, Linux , Web Development and JAVA.
             </li>
         </ul>
         </p>
@@ -78,11 +79,7 @@
             </div>
 
         </div>
-        <script>
-            var contact= document.getElementById("Contact");
-            const number = "7300526322"
-            contact.onclick =() => { document.getElementById("Contact").innerHTML = number}
-        </script>
+        <script src="./script1.js"></script>
 </body>
 
 </html>
